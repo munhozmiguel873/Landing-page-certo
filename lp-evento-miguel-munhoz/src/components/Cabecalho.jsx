@@ -10,6 +10,7 @@ function Cabecalho() {
             <li><a className="inline-block min-h-11 content-center hover:underline" href="#sobre">Sobre</a></li>
             <li><a className="inline-block min-h-11 content-center hover:underline" href="#programacao">Programação</a></li>
             <li><a className="inline-block min-h-11 content-center hover:underline" href="#atracoes">Atrações</a></li>
+            <li><a className="inline-block min-h-11 content-center hover:underline" href="#duvidas">Dúvidas</a></li>
             <li><a className="inline-block min-h-11 content-center hover:underline" href="#inscricao">Inscrição</a></li>
           </ul>
         </nav>

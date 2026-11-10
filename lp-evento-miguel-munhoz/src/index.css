@@ -2,10 +2,21 @@
 
 @theme {
   --color-primaria: #dc2626;
-  --color-destaque: 16a34a;
+  --color-destaque: #166534;
   --color-fundo: #fefce8;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+:focus-visible {
+  outline: 3px solid #1c1917;
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
 }

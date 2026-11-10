@@ -5,16 +5,24 @@ import Programacao from './components/Programacao.jsx'
 import Atracoes from './components/Atracoes.jsx'
 import Inscricao from './components/Inscricao.jsx'
 import Rodape from './components/Rodape.jsx'
+import PerguntasFrequentes from './components/PerguntasFrequentes.jsx'
 
 function App() {
   return (
     <>
+      <a
+        href="#conteudo"
+        className="sr-only z-50 rounded bg-white px-4 py-3 font-bold text-stone-900 focus:not-sr-only focus:fixed focus:left-4 focus:top-4"
+      >
+        Pular para o conteúdo
+      </a>
       <Cabecalho />
-      <main>
+      <main id="conteudo" tabIndex="-1">
         <Hero />
         <Sobre />
         <Programacao />
         <Atracoes />
+        <PerguntasFrequentes />
         <Inscricao />
       </main>
       <Rodape />

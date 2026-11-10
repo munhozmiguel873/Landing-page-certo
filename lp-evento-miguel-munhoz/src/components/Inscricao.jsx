@@ -34,6 +34,7 @@ function Inscricao() {
             Nome
             <input
               type="text"
+              autoComplete="name"
               required
               value={nome}
               onChange={(e) => setNome(e.target.value)}
@@ -45,6 +46,7 @@ function Inscricao() {
             E-mail
             <input
               type="email"
+              autoComplete="email"
               required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
@@ -68,7 +70,7 @@ function Inscricao() {
           </label>
           <button
             type="submit"
-            className="mt-6 inline-block min-h-11 w-full rounded-lg bg-primaria px-6 py-3 font-bold text-white hover:brightness-110"
+            className="mt-6 inline-block min-h-11 w-full rounded-lg bg-primaria px-6 py-3 font-bold text-white hover:bg-red-700"
           >
             Confirmar inscrição
           </button>
