@@ -6,6 +6,7 @@ import Atracoes from './components/Atracoes.jsx'
 import Inscricao from './components/Inscricao.jsx'
 import Rodape from './components/Rodape.jsx'
 import PerguntasFrequentes from './components/PerguntasFrequentes.jsx'
+import Grafico from './components/Grafico.jsx'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Programacao />
         <Atracoes />
         <PerguntasFrequentes />
+        <Grafico />
         <Inscricao />
       </main>
       <Rodape />

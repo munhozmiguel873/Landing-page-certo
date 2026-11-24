@@ -4,4 +4,9 @@ import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  server: {
+    watch: {
+      ignored: ["**/public/icone-192.png", "**/public/icone-512.png"],
+    },
+  },
 });

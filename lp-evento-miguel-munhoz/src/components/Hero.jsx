@@ -1,4 +1,5 @@
 import { evento } from "../data/evento.js";
+import BotaoLembrete from "./BotaoLembrete.jsx";
 
 function Hero() {
   return (
@@ -18,6 +19,7 @@ function Hero() {
         >
           Quero participar
         </a>
+        <BotaoLembrete />
       </div>
     </section>
   );
